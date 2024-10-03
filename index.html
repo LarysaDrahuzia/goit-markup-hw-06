@@ -55,14 +55,77 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+
+      <!-- Mobile menu -->
+
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close" type="button" data-menu-close>
             <svg class="mobile-menu-close-icone" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-          <nav class="mobile-menu-nav"></nav>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-menu-nav-item">
+                <a class="mobile-menu-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list">
+              <li class="mobile-menu-contacts-item">
+                <a
+                  class="mobile-menu-contacts-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-menu-contacts-item">
+                <a class="mobile-menu-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-social-list">
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a href="" class="mobile-menu-social-link">
+                <svg class="mobile-menu-social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -70,7 +133,7 @@
     <!-- Page main -->
     <main class="page-main">
       <!-- Hero Section -->
-      <section class="hero-section hidden">
+      <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button" data-modal-open>
@@ -80,7 +143,7 @@
       </section>
 
       <!-- Our Features -->
-      <section class="features-section hidden">
+      <section class="features-section">
         <div class="container">
           <h2 class="visually-hidden">Our Features</h2>
           <ul class="features-list">
@@ -137,13 +200,14 @@
       </section>
 
       <!-- Our Team -->
-      <section class="team-section hidden">
-        <div class="container">
+      <section class="team-section">
+        <div class="container team-container">
           <h2 class="team-subject">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
                 src="./images/team-cards/mark.jpg"
+                srcset="./images/team-cards/Mark@2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -186,6 +250,7 @@
             <li class="team-item">
               <img
                 src="./images/team-cards/tom.jpg"
+                srcset="./images/team-cards/Tom@2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -228,6 +293,7 @@
             <li class="team-item">
               <img
                 src="./images/team-cards/camila.jpg"
+                srcset="./images/team-cards/Camila@2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -270,6 +336,7 @@
             <li class="team-item">
               <img
                 src="./images/team-cards/daniel.jpg"
+                srcset="./images/team-cards/Daniel@2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
