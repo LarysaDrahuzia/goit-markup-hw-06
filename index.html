@@ -58,7 +58,7 @@
 
       <!-- Mobile menu -->
 
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close" type="button" data-menu-close>
             <svg class="mobile-menu-close-icone" width="8" height="8">
@@ -713,7 +713,7 @@
 
     <!-- Modal content -->
 
-    <div class="backdrop hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-icone" width="8" height="8">
@@ -790,8 +790,10 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="modal-checkbox-link" href="">Privacy Policy</a>
+              <span class="modal-checkbox-part">
+                I accept the terms and conditions of the
+                <a class="modal-checkbox-link" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="contacts-form-btn" type="submit">Send</button>
