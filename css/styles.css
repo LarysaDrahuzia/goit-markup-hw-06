@@ -974,7 +974,7 @@ button {
     flex-wrap: nowrap;
     align-items: baseline;
     justify-content: center;
-    margin-left: 141px;
+    margin-left: auto;
 
     padding: 0 15px;
     gap: 0;
