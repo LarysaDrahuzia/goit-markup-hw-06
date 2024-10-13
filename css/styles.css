@@ -43,6 +43,11 @@ button {
   font-family: inherit;
 }
 
+input,
+textarea {
+  font-family: inherit;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -275,8 +280,7 @@ button {
   padding: 0;
   width: 24px;
   height: 24px;
-  align-items: center;
-  justify-content: center;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   line-height: 0;
   background-color: #fff;
@@ -307,6 +311,7 @@ button {
   flex-direction: column;
   gap: 24px;
   margin-bottom: 48px;
+  font-style: normal;
 }
 
 .mobile-menu-contacts-link {
@@ -327,7 +332,7 @@ button {
 .mobile-menu-social-list {
   display: flex;
   justify-content: center;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .mobile-menu-social-item {
@@ -974,7 +979,7 @@ button {
     flex-wrap: nowrap;
     align-items: baseline;
     justify-content: center;
-    margin-left: auto;
+    margin: 0 auto;
 
     padding: 0 15px;
     gap: 0;
